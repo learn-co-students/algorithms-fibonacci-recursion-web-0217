@@ -43,3 +43,7 @@ The first 10 numbers in the Fibonacci sequence are:
 ## Instructions
 - Write an iterative method `looping_fibonacci(n)` that returns the nth term of the Fibonacci sequence. Use a loop, such as `while` or `times`.
 - Write a recursive method `recursive_fibonacci(n)` that returns the nth term of the Fibonacci sequence. What is your base case? What is your recursive call? See if you can explain it in English before starting to write code. Feel free to work with your group.
+
+## Resources
+* (Blog post on recursion by Vaidehi Joshi, Ruby-006)[http://vaidehijoshi.github.io/blog/2014/12/14/to-understand-recursion-you-must-first-understand-recursion/]
+* (Stack Overflow: "What is Ruby recursion and how does it work?")[http://stackoverflow.com/questions/6418017/what-is-ruby-recursion-and-how-does-it-work]
