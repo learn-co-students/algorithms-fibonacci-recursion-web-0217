@@ -9,7 +9,7 @@ A recursive function is a function that calls itself. When writing a recursive f
 - A base case
 - A recursive call that reduces other cases toward the base case
 
-Let's say we want to write a recursive function that reverses a string, without using the `reverse` method. What information do you think will be important? We'll want to keep track of what we have reversed so far, as well as what we have yet to reverse. Let's call those variables `reversed` and `to_reverse`.
+Let's say we want to write a recursive function that reverses a string, without using the `reverse` method. What information do you think will be important? We'll want to keep track of which characters we have reversed so far, as well as which we have yet to reverse. Let's call those variables `reversed` and `to_reverse`.
 
 What is our base case? If our `to_reverse` string is empty, then we know that our `reversed` string is complete.
 
@@ -45,5 +45,5 @@ The first 10 numbers in the Fibonacci sequence are:
 - Write a recursive method `recursive_fibonacci(n)` that returns the nth term of the Fibonacci sequence. What is your base case? What is your recursive call? See if you can explain it in English before starting to write code. Feel free to work with your group.
 
 ## Resources
-* (Blog post on recursion by Vaidehi Joshi, Ruby-006)[http://vaidehijoshi.github.io/blog/2014/12/14/to-understand-recursion-you-must-first-understand-recursion/]
-* (Stack Overflow: "What is Ruby recursion and how does it work?")[http://stackoverflow.com/questions/6418017/what-is-ruby-recursion-and-how-does-it-work]
+* [Blog post on recursion by Vaidehi Joshi, Ruby-006](http://vaidehijoshi.github.io/blog/2014/12/14/to-understand-recursion-you-must-first-understand-recursion/)
+* [Stack Overflow: "What is Ruby recursion and how does it work?"](http://stackoverflow.com/questions/6418017/what-is-ruby-recursion-and-how-does-it-work)
