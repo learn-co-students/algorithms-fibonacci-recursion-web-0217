@@ -18,18 +18,18 @@ What if our `to_reverse` string is not empty? Then we'll want to take the first 
 In Ruby:
 ```
 def my_reverse_helper(to_reverse, reversed)
-	if to_reverse.empty?
-		reversed
-	else
-		my_reverse_helper(to_reverse[1..-1], "#{to_reverse[0]}#{reversed}")
-	end
+  if to_reverse.empty?
+    reversed
+  else
+    my_reverse_helper(to_reverse[1..-1], "#{to_reverse[0]}#{reversed}")
+  end
 end
 ```
 
 Once we've written our helper, we can define a `my_reverse` method:
 ```
 def my_reverse(string)
-	my_reverse_helper(string, "")
+  my_reverse_helper(string, "")
 end
 ```
 
