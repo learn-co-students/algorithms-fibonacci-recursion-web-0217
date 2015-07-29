@@ -1,8 +1,4 @@
----
-tags: recursion, intro
-languages: ruby
-resources: 
----
+
 # Algorithms Fibonacci Recursion
 ## Recursion
 A recursive function is a function that calls itself. When writing a recursive function, we'll want to define:
