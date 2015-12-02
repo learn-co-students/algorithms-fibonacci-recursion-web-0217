@@ -43,3 +43,4 @@ The first 10 numbers in the Fibonacci sequence are:
 ## Resources
 * [Blog post on recursion by Vaidehi Joshi, Ruby-006](http://vaidehijoshi.github.io/blog/2014/12/14/to-understand-recursion-you-must-first-understand-recursion/)
 * [Stack Overflow: "What is Ruby recursion and how does it work?"](http://stackoverflow.com/questions/6418017/what-is-ruby-recursion-and-how-does-it-work)
+<a href='https://learn.co/lessons/algorithms-fibonacci-recursion' data-visibility='hidden'>View this lesson on Learn.co</a>
